@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Sobrados Ros Imóveis</title>
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
-            type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+        
     </head>
-
+    
     <body id="page-top">
         <div class="contacts" >         
                 <div class="h6" style="color: white;">
@@ -58,56 +58,56 @@
                 </div>
             </div>
         </section>
-        <section class="page-section bg-secondary text-white mb-0" id="about">
-            <div class="container">
-                <h2 class="page-section-heading text-center text-uppercase text-white">Sobre</h2>
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 ml-auto">
-                        <p class="lead"> Somos um grupo de desenvolvedores apaixonados pelo que fazemos, e famintos
-                            por
-                            conhecimento, iniciamos nossas carreiras em algumas empresas conhecidas na área de
-                            desenvolvimento em softwares situadas em Blumenau.
-                        </p>
-                    </div>
-                    <div class="col-lg-4 mr-auto">
-                        <p class="lead"> O intuito deste grupo é fornecer ao empreendedor que possui um micro ou
-                            pequeno
-                            negócio, uma
-                            oportunidade de fazer ele crescer por meio de um site, o mesmo pode ser um site
-                            institucional que conta com seções mais descritivas sobre a empresa, bem como produtos e
-                            serviços dela, até mesmo um site dinâmico, que irá ter um conteúdo que pode mudar e se
-                            expandir conforme você, empreendedor, preferir! O que é ótimo para ser usado por um
-                            longo
-                            período de tempo.
-                        </p>
-                    </div>
-                    <div class="col-lg-4 mr-auto">
-                        <p class="lead"> Queremos trazer estas oportunidades de uma forma que cabe no orçamento de
-                            nossos cliente, sem deixar de lado a excelência e mantendo a qualidade de nosso produto,
-                            por
-                            mais que sejamos um grupo novo no mercado, temos uma ambição muito grande para poder
-                            trazer
-                            futuros lucros para sua empresa por meio de um site resiliente e com design responsivo.
-                        </p>
+        <section class="page-section bg-secondary mb-0">
+            <div class="d-block w-100 container-carousel radius-photos">
+                <div id="carouselPhotos" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselPhotos" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselPhotos" data-slide-to="1"></li>
+                        <li data-target="#carouselPhotos" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="../landing-page/assets/img/sobrados/1-fachada.jpg" class="d-block w-60 radius-photos" alt="Slide 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Fachada</h5>
+                                <p>Descrição da fachada vai ser inserida aqui.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../landing-page/assets/img/sobrados/2.jpg" class="d-block w-60 radius-photos" alt="Slide 2">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>Fachada</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light rounded js-scroll-trigger" href="#contact">
-                        Entre em contato!
-                    </a>
+                    <div class="item">
+                        <img src="../landing-page/assets/img/sobrados/3.jpg" class="d-block w-60 radius-photos" alt="Slide 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        </div>
+                    </div>
                 </div>
+                <a class="carousel-control-prev" href="#carouselPhotos" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselPhotos" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próxima</span>
+                </a>
             </div>
-        </section>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <!--JS local-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+    </section>
+    <!-- Bootstrap core JS-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!--JS local-->
+    <script src="js/scripts.js"></script>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </body>
 </html>

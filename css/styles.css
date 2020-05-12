@@ -97,11 +97,41 @@
   
 }
 
+.boxed-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(44, 62, 80, 0.400);
+  border: 1px solid rgba(255, 255, 255, 0.342);
+}
+
+.parallax {
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .section {
   height: 100vh;
   width: 100%;
   padding: 3rem 4rem;
   box-sizing: border-box;
+}
+
+.container-carousel {
+  width: 100%;
+  background-color: rgba(44, 62, 80, 0.400);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.radius-photos {
+  border-radius: 25px;
 }
 
 html {
