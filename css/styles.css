@@ -41,7 +41,7 @@
 }
 
 .header {
-  height: 819px;
+  height: 600px;
   background-color: white;
   background-image: url(1-fachada.jpg);
   background-repeat: no-repeat;
@@ -49,39 +49,17 @@
   background-position: center center;
 }
 
-.responsive img{
-  max-width: 1080px;   
-  width: 100%;
-  max-height: 500px;  
-  min-height: auto;  
-  background-size:100%;
-  background-repeat: no-repeat;
-}
-
-.navbar-boxed {
-  display: block;
+.navbar-boxed { 
   justify-content: center;
   align-items: center;
+  text-align: left;
   height: inherit;
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
   width: 25%;
-  background-color: rgba(43, 61, 79, 0.4);  
-}
-
-.boxed-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(44, 62, 80, 0.400);
-  border: 1px solid rgba(255, 255, 255, 0.342);
-}
-
-.parallax {
-  height: 500px;
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  left: 20%;
+  background-color: rgba(43, 61, 79, 0.4);    
 }
 
 .section {
