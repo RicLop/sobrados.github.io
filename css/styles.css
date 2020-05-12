@@ -61,6 +61,11 @@
   background-position: 0px 0px;
 }
 
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .navbar-boxed { 
   display: flex;
   justify-content: center;
@@ -71,7 +76,14 @@
   z-index: 100;
   width: 23%;
   left: 7%;
-  background-color: rgba(43, 61, 79, 0.7);    
+  background-color: rgba(255, 255, 255, 0.7);    
+}
+
+.boxed {
+  display: table-cell; 
+  width: 100px;
+  padding: 10px;
+  border: 3px solid rgba(184, 184, 184, 0.15);
 }
 
 .contacts {
@@ -83,6 +95,13 @@
   top: 5%;
 }
 
+.carousel-inner {
+  background-size: contain;
+  background-position: 0 0; 
+  width: 100%;
+  height: 100%;
+}
+
 .container-nav {
   padding-right: 1rem;
   padding-left: 1rem;
@@ -91,18 +110,11 @@
 }
 
 .container {
-  width: 100%;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-  
+  display: table;
 }
 
-.boxed-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(44, 62, 80, 0.400);
-  border: 1px solid rgba(255, 255, 255, 0.342);
+.container div{
+  margin: auto;
 }
 
 .parallax {
