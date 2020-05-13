@@ -165,6 +165,7 @@
     text-align: start;
     text-align: left;
     justify-content: left;
+    align-items: center;
   }
 
   .showcase .showcase-img {
@@ -206,6 +207,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -100px 0px;
+  }
+
+  #title {
+font-size: medium;
+
+justify-content: left;
+align-items: center;
   }
 
   .showcase {
