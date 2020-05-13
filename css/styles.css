@@ -53,14 +53,7 @@
   height: auto;
 }
 
-.header {
-  height: 800px;
-  background-color: white;
-  background-image: url(../assets/img/sobrados/1-header.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0px 0px;
-}
+
 
 .justify {
   text-align: justify;
@@ -151,6 +144,15 @@
 
 /*Resolução para desktop*/
 @media (min-width: 600px ) {
+  .header {
+    height: 800px;
+    background-color: white;
+    background-image: url(../assets/img/sobrados/1-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+  }
+
   .showcase {
     margin-top: 100px;
     margin-left: 200px;
@@ -198,6 +200,15 @@
 
 /*Resolução para celular*/
 @media (max-width: 414px)  {
+  .header {
+    height: 700px;
+    background-color: white;
+    background-image: url(../assets/img/sobrados/1-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -100px 0px;
+  }
+
   .showcase {
     margin-left: 20px;
     margin-right: 20px;
@@ -211,7 +222,7 @@
   }
 
   .showcase .showcase-text {
-    margin: 1rem;  
+    padding: 4rem;  
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -230,13 +241,10 @@
     width: 50%;
     background-color: rgba(255, 255, 255, 0.7);
   } 
-
-  #headerText {
-    top: 182px;
-  }  
-
+   
   #logo{
-    top: 90px;
+    top: 7
+    0px;
   }
 
   .contacts {
