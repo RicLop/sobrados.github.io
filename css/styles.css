@@ -67,8 +67,10 @@
   text-justify: inter-word;
 }
 
+
 .navbar-boxed {
   display: flex;
+  padding-bottom: 56.25%;
   justify-content: center;
   align-items: center;
   text-align: left;
@@ -78,6 +80,12 @@
   width: 23%;
   left: 7%;
   background-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-boxed > div {
+	top: 0; bottom: 0; left: 0; right: 0;
+	font-size: 24px;
+	text-align: center;
 }
 
 .boxed {
@@ -133,47 +141,106 @@
   box-sizing: border-box;
 }
 
-.container-carousel {
-  width: 100%;
-  background-color: rgba(44, 62, 80, 0.400);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding-left: 20%;
-  padding-right: 20%;
-}
-
 .showcase .showcase-text {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: start;
+  text-align: left;
   justify-content: left;
 }
 
-.showcase .showcase-img {
-  min-height: 40rem;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
+/*Resolução para desktop*/
 @media (min-width: 600px ) {
   .showcase {
+    margin-top: 100px;
     margin-left: 200px;
     margin-right: 200px;
   }
+
+  .showcase .showcase-text {
+    padding: 4rem;  
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    text-align: left;
+    justify-content: left;
+  }
+
+  .showcase .showcase-img {
+    min-height: 30rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .navbar-boxed {
+    display: flex;
+    padding-bottom: 56.25%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    height: inherit;
+    z-index: 100;
+    width: 23%;
+    left: 7%;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  #logo{
+    top: 40px;
+  }
+
+  #headerText {
+    top: 182px;
+  } 
 }
 
+/*Resolução para celular*/
 @media (max-width: 414px)  {
   .showcase {
     margin-left: 20px;
     margin-right: 20px;
   }
-}
 
-@media (min-width:768px) {
+  .showcase .showcase-img {
+    min-height: 20rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   .showcase .showcase-text {
-    padding: 7rem;
+    margin: 1rem;  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: left;
+  }
+
+  .navbar-boxed {  
+    display: flex;
+    padding-bottom: 56.25%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    height: inherit;
+    z-index: 100;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+  } 
+
+  #headerText {
+    top: 182px;
+  }  
+
+  #logo{
+    top: 90px;
+  }
+
+  .contacts {
+    display: none;
   }
 }
 
