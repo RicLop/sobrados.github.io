@@ -144,11 +144,10 @@
 .showcase .showcase-text {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: start;
+  text-align: left;
   justify-content: left;
 }
-
-
 
 /*Resolução para desktop*/
 @media (min-width: 600px ) {
@@ -159,8 +158,13 @@
   }
 
   .showcase .showcase-text {
-    padding: 4rem;
-  }  
+    padding: 4rem;  
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    text-align: left;
+    justify-content: left;
+  }
 
   .showcase .showcase-img {
     min-height: 30rem;
@@ -204,6 +208,14 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .showcase .showcase-text {
+    margin: 1rem;  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: left;
   }
 
   .navbar-boxed {  
