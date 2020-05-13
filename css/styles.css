@@ -74,10 +74,13 @@
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-.navbar-boxed > div {
-	top: 0; bottom: 0; left: 0; right: 0;
-	font-size: 24px;
-	text-align: center;
+.navbar-boxed>div {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 24px;
+  text-align: center;
 }
 
 .boxed {
@@ -142,7 +145,7 @@
 }
 
 /*Resolução para desktop*/
-@media (min-width: 600px ) {
+@media (min-width: 600px) {
   .header {
     height: 800px;
     background-color: white;
@@ -153,23 +156,35 @@
   }
 
   .showcase {
+    position: relative;
+    top: -100px;
     margin-top: 100px;
     margin-left: 200px;
     margin-right: 200px;
   }
 
   .showcase .showcase-text {
-    padding: 4rem;  
+    padding: 4rem;
     display: flex;
     flex-direction: column;
     text-align: start;
     text-align: left;
     justify-content: left;
     align-items: center;
+    color: white;
+  }
+
+  .showcase .showcase-text .lead {    
+    border-collapse: separate;
+    border-spacing: 10  0px 50px;
+    padding: 1em;
+    border: 2px solid  #251b11;
   }
 
   .showcase .showcase-img {
     min-height: 30rem;
+    padding-left: 100px;
+    padding-right: 100px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -189,17 +204,17 @@
     background-color: rgba(255, 255, 255, 0.7);
   }
 
-  #logo{
+  #logo {
     top: 40px;
   }
 
   #headerText {
     top: 182px;
-  } 
+  }
 }
 
 /*Resolução para celular*/
-@media (max-width: 414px)  {
+@media (max-width: 414px) {
   .header {
     height: 700px;
     background-color: white;
@@ -210,10 +225,10 @@
   }
 
   #title {
-font-size: medium;
+    font-size: medium;
 
-justify-content: left;
-align-items: center;
+    justify-content: left;
+    align-items: center;
   }
 
   .showcase {
@@ -229,14 +244,14 @@ align-items: center;
   }
 
   .showcase .showcase-text {
-    padding: 4rem;  
+    padding: 4rem;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: left;
   }
 
-  .navbar-boxed {  
+  .navbar-boxed {
     display: flex;
     padding-bottom: 56.25%;
     justify-content: center;
@@ -247,11 +262,10 @@ align-items: center;
     z-index: 100;
     width: 50%;
     background-color: rgba(255, 255, 255, 0.7);
-  } 
-   
-  #logo{
-    top: 7
-    0px;
+  }
+
+  #logo {
+    top: 7 0px;
   }
 
   .contacts {
@@ -327,7 +341,8 @@ p {
 
 /* FOOTER START */
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -398,7 +413,7 @@ html, body {
   line-height: 26px;
   font-size: 14px;
   margin-bottom: 50px;
-  clear:both;
+  clear: both;
 }
 
 .contact-form-text span {
@@ -406,7 +421,8 @@ html, body {
   color: rgba(242, 249, 255, .35);
 }
 
-.contact-form span, h2 {
+.contact-form span,
+h2 {
   float: left;
 }
 
@@ -419,7 +435,7 @@ html, body {
   color: #000;
   margin-top: 40px;
   margin-bottom: 13px;
-  clear:both;
+  clear: both;
   padding-bottom: 230px;
 }
 
@@ -443,7 +459,8 @@ html, body {
   font-size: 28px;
 }
 
-.footer .contact-form h2, h3 {
+.footer .contact-form h2,
+h3 {
   color: #b4beb7;
 }
 
@@ -459,7 +476,7 @@ html, body {
   -moz-box-sizing: border-box;
   margin-bottom: 12px;
   height: 55px;
-  overflow: hidden;  
+  overflow: hidden;
 }
 
 .footer input[type="text"],
@@ -467,7 +484,7 @@ html, body {
 .footer input[type="time"] {
   background: rgba(10, 10, 10, .1);
   border: 2px solid rgba(242, 249, 255, .35);
-  text-align: center;  
+  text-align: center;
 }
 
 .footer input[type="submit"] {
