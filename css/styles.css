@@ -60,7 +60,6 @@
   text-justify: inter-word;
 }
 
-
 .navbar-boxed {
   display: flex;
   padding-bottom: 56.25%;
@@ -350,18 +349,127 @@ html, body {
   font-weight: lighter;
 }
 
+.footer-content {
+  top: 0px;
+  height: 610px;
+  background-image: url(../assets/img/sobrados/10\ \(3\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -500px;
+}
+
 .footer-content-row {
-  width: 10px;
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin: 0px;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 80%;
+  height: 100%;
+  margin: auto;
+  flex-wrap: wrap;
 }
 
 .footer-content-col {
-  flex: 1;
-  padding: 2em;
+  width: 420px;
   flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 3em;
+  align-items: center;
+}
+
+.contact-form {
+  background: #000;
+  /* z-index: 100002;
+  background-attachment: scroll; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.contact-form-text {
+  line-height: 26px;
+  font-size: 14px;
+  margin-bottom: 50px;
+  clear:both;
+}
+
+.contact-form-text span {
+  font-size: 24px;
+  color: rgba(242, 249, 255, .35);
+}
+
+.contact-form span, h2 {
+  float: left;
+}
+
+.promoting-text {
+  display: block;
+  height: 22px;
+  line-height: 26px;
+  padding: 4px 6px;
+  font-size: 14px;
+  color: #000;
+  margin-top: 40px;
+  margin-bottom: 13px;
+  clear:both;
+  padding-bottom: 230px;
+}
+
+.promoting-text span {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.promoting-text h2 {
+  color: #5a5a8c;
+}
+
+.promoting-text h2:first-of-type {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.promoting-text h2:last-of-type {
+  font-size: 28px;
+}
+
+.footer .contact-form h2, h3 {
+  color: #b4beb7;
+}
+
+.footer input {
+  color: #fff;
+  font-size: 14px;
+  outline: 0px;
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin-bottom: 12px;
+  height: 55px;
+  overflow: hidden;  
+}
+
+.footer input[type="text"],
+.footer input[type="email"],
+.footer input[type="time"] {
+  background: rgba(10, 10, 10, .1);
+  border: 2px solid rgba(242, 249, 255, .35);
+  text-align: center;  
+}
+
+.footer input[type="submit"] {
+  background: #5a5a8c;
+  border: none;
+  transition: background .2s;
+}
+
+.footer input[type="submit"]:hover {
+  background: rgb(123, 123, 163);
 }
 
 .footer-bottom {
@@ -377,7 +485,7 @@ html, body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 50%;
+  max-width: 80%;
   height: 100%;
   margin: auto;
   flex-wrap: wrap;
@@ -389,12 +497,9 @@ html, body {
   align-items: center;
 }
 
-.footer-bottom-row:first-child img {
-  margin-bottom: 5px;
-}
-
-.footer-bottom-row:first-child p {
-  margin-bottom: 5px;
+.footer-bottom-logo img {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .footer-bottom p {
@@ -404,60 +509,6 @@ html, body {
   margin: 0;
   padding: 0;
   vertical-align: baseline;
-}
-
-.contact-form {
-  width: 420px;
-  background: #000;
-  /* z-index: 100002;
-  background-attachment: scroll; */
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-
-.footer .contact-form h2 {
-  color: #b4beb7;
-}
-
-.footer .contact-form h3 {
-  color: #b4beb7;
-}
-
-.footer input[type="text"],
-.footer input[type="email"],
-.footer input[type="time"],
-.footer input[type="submit"] {
-  color: #fff;
-  font-size: 18px;
-  outline: 0px;
-  margin: 0px;
-  padding: 10px;
-  width: 100%;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  margin-bottom: 12px;
-  height: 55px;
-  overflow: hidden;
-}
-
-.footer input[type="text"],
-.footer input[type="email"],
-.footer input[type="time"] {
-  background: rgba(10, 10, 10, .1);
-  border: 2px solid rgba(242, 249, 255, .35);
-  text-align: center;
-}
-
-.footer input[type="submit"] {
-  background: #5a5a8c;
-  border: none;
-  transition: background .2s;
-}
-
-.footer input[type="submit"]:hover {
-  background: rgb(123, 123, 163);
 }
 
 /* FOOTER END */
