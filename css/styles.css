@@ -277,8 +277,6 @@
 
 .contact-form {
   background: #000;
-  /* z-index: 100002;
-  background-attachment: scroll; */
   display: flex;
   justify-content: center;
   position: relative;
@@ -333,10 +331,6 @@
 
 .promoting-text h1 {
   font-weight: bold;
-}
-
-.promoting-text h2 {
-  margin-bottom: 30px;
 }
 
 .footer .contact-form h2 {
