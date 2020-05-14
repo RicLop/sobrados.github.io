@@ -211,15 +211,36 @@
 }
 
 /* FOOTER START */
-.footer {
-  background: #303036;
-  position: relative;
-  height: 810px;
-  width: 100%;
-   margin-top: -110px;
-  /* overflow: hidden;
-  flex-flow: column;
-  padding-top: 0px; */
+
+/*Resolução para Celular*/
+@media (max-width: 414px) {
+  .footer {
+    background: #303036;
+    position: relative;
+    height: 1510px;
+    width: 100%;
+    margin-top: -0px;
+  }
+
+  .footer-content {
+    top: 0px;
+    height: 610px;
+    background-image: url(../assets/img/sobrados/8-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/*Resolução para desktop*/
+@media (min-width: 600px) {
+  .footer {
+    background: #303036;
+    position: relative;
+    height: 810px;
+    width: 100%;
+    margin-top: -110px;
+  }
 }
 
 .footer * {
@@ -227,14 +248,7 @@
   font-weight: lighter;
 }
 
-.footer-content {
-  top: 0px;
-  height: 610px;
-  background-image: url(../assets/img/sobrados/8-footer.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0px -500px;
-}
+
 
 .footer-content-row {
   display: flex;
