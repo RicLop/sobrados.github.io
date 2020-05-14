@@ -217,18 +217,9 @@
   .footer {
     background: #303036;
     position: relative;
-    height: 1510px;
+    height: 50%;
     width: 100%;
     margin-top: -0px;
-  }
-
-  .footer-content {
-    top: 0px;
-    height: 610px;
-    background-image: url(../assets/img/sobrados/8-footer.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
   }
 }
 
@@ -239,6 +230,7 @@
     position: relative;
     height: 810px;
     width: 100%;
+    height: auto;
     margin-top: -110px;
   }
 }
@@ -248,7 +240,14 @@
   font-weight: lighter;
 }
 
-
+.footer-content {
+  top: 0px;
+  height: 100%;
+  background-image: url(../assets/img/sobrados/8-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 .footer-content-row {
   display: flex;
@@ -265,8 +264,6 @@
   flex-direction: column;
   align-items: center;
   height: 100%;
-  padding: 3em;
-  align-items: center;
 }
 
 .contact-form {
@@ -276,12 +273,14 @@
   display: flex;
   justify-content: center;
   position: relative;
+  padding: 3em;
 }
 
 .contact-form-text {
   line-height: 26px;
   font-size: 14px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  height: 100%;
   clear: both;
 }
 
@@ -296,14 +295,14 @@ h2 {
 }
 
 .promoting-text {
-  display: block;
+  display: relative;
+  justify-content: left;
   line-height: 26px;
   padding: 4px 6px;
   font-size: 14px;
   color: #000;
-  margin-bottom: 13px;
   clear: both;
-  padding-bottom: 230px;
+  padding: 2em;
 }
 
 .promoting-text span {
@@ -312,22 +311,19 @@ h2 {
   margin-left: 0px;
 }
 
-.promoting-text h2 {
+.promoting-text h1, h2 {
   color: #5a5a8c;
 }
 
-.promoting-text h2:first-of-type {
-  font-size: 40px;
+.promoting-text h1 {
   font-weight: bold;
-  margin-top: 15px;
 }
 
-.promoting-text h2:last-of-type {
-  font-size: 28px;
+.promoting-text h2 {
+  margin-bottom: 30px;
 }
 
-.footer .contact-form h2,
-h3 {
+.footer .contact-form h2 {
   color: #b4beb7;
 }
 
@@ -369,7 +365,7 @@ h3 {
   color: black;
   height: 200px;
   bottom: 0px;
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 
