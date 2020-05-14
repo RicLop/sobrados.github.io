@@ -298,8 +298,11 @@
   color: rgba(242, 249, 255, .35);
 }
 
-.contact-form span,
-h2 {
+.contact-form span {
+  float: left;
+}
+
+.contact-form h2 {
   float: left;
 }
 
@@ -320,7 +323,11 @@ h2 {
   margin-left: 0px;
 }
 
-.promoting-text h1, h2 {
+.promoting-text h1 {
+  color: #5a5a8c;
+}
+
+.promoting-text h2 {
   color: #5a5a8c;
 }
 
