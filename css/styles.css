@@ -79,6 +79,14 @@
     background-position: 0px 0px;
   }
 
+  .header button {
+    height: 70px; 
+    width: 200px; 
+    align-content: center; 
+    background: #5a5a8c; 
+    border: none;
+   }
+
   .showcase {
     position: relative;
     top: -100px;
@@ -121,7 +129,6 @@
 
   .navbar-boxed {
     display: flex;
-    padding-bottom: 56.25%;
     justify-content: center;
     align-items: center;
     text-align: left;
@@ -152,6 +159,13 @@
     background-size: cover;
     background-position: -100px 0px;
   }
+
+  .header button {
+    height: 70px; 
+    width: 150px; 
+    background: #5a5a8c; 
+    border: none;
+   }
 
   #title {
     font-size: medium;
@@ -277,8 +291,6 @@
 
 .contact-form {
   background: #000;
-  /* z-index: 100002;
-  background-attachment: scroll; */
   display: flex;
   justify-content: center;
   position: relative;

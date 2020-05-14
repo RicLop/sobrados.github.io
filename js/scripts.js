@@ -14,6 +14,7 @@ function sendEmail() {
     event.preventDefault();
 }
 
-function scrollToBottom() {
-    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+function scrollToElement(id) {
+    var element = document.querySelector(id);
+    element.scrollIntoView({ behavior: 'smooth' });
 }
