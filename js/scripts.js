@@ -13,3 +13,7 @@ function sendEmail() {
     window.open('mailto:10semnome01@gmail.com?body=' + message + '&subject=Sobrados ROS Imóveis', 'mail');
     event.preventDefault();
 }
+
+function scrollToBottom() {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+}
