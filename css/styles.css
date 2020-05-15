@@ -127,6 +127,15 @@
     background-position: center;
   }
 
+  .showcase .showcase-img-plants {
+    min-height: 40rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   .navbar-boxed {
     display: flex;
     justify-content: center;
