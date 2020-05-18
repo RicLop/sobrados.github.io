@@ -18,6 +18,11 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+@font-face {
+  font-family: myFirstFont;
+  src: url(Assassin$.ttf);
+}
+
 #contacts {
   z-index: 2000;
   left: 100px;
@@ -73,7 +78,7 @@
   .header {
     height: 800px;
     background-color: white;
-    background-image: url(../assets/img/sobrados/1-header.jpg);
+    background-image: url(../assets/img/sobrados/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px 0px;
@@ -112,10 +117,13 @@
   }
 
   .showcase .showcase-text .lead {    
-    border-collapse: separate;
-    border-spacing: 10  0px 50px;
-    padding: 1em;
-    border: 2px solid  #251b11;
+    color: rgb(148, 148, 148);    
+    padding: 1em; 
+    position: absolute;
+    margin-top: 0px;
+    display: block;
+    left: 0px;
+    top: -140px;
   }
 
   .showcase .showcase-img {
@@ -127,10 +135,19 @@
     background-position: center;
   }
 
+  .showcase .showcase-img-box {    
+    width: 650px;
+    border: 1px solid rgb(6, 51, 124);
+  }
+
   .showcase .showcase-img-plants {
     min-height: 40rem;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -195,20 +212,30 @@
     background-position: center;
   }
 
-  .showcase .showcase-text {
+  .showcase .showcase-img-plants {
+    min-height: 30rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .showcase .showcase-text {    
     padding: 4rem;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: left;
-    color: black;
   }
 
   .showcase .showcase-text .lead {    
-    border-collapse: separate;
-    border-spacing: 10  0px 50px;
+    color: rgb(148, 148, 148);  
     padding: 1em;
-    border: 2px solid  #251b11;
   }
 
   .navbar-boxed {
